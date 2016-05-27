@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="CaseFrontendApp">
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Case Frontend</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- RESOURCES -->
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
+
+  <script src="app/app.js"></script>
+  <!-- Controllers -->
+  <script src="app/controllers.js"></script>
+  <!-- Services -->
+  <script src="app/factories.js"></script>
+  <!-- Factories -->
+  <script src="app/services.js"></script>
+</head>
+<body ng-controller="mainAppCtrl">
+
+  <div class="content-wrapper">
+    <div ui-view></div>
+  </div>
+
+</body>
+</html>

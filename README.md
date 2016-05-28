@@ -13,6 +13,10 @@ la aplicación necesita las siguientes adecuaciones para la segunda actualizaci�
   - Idioma Local
   - Estilos del elemento Capturador
   - Buscador
+  
+## Seguridad de Datos 
+- Implementar un medio de protección a los Datos
+- Seguridad conta XSS
 
 ## Impresión de Datos
 - Imprimir lista de usuarios
